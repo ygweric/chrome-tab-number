@@ -1,0 +1,15 @@
+{
+  "name": "Tabs Number",
+  "description": "Show tab number",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["alarms", "tabs", "bookmarks", "*://*/*"],
+  "background": {
+    "scripts": ["tabNumber.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon" : "icon.png",
+    "default_title": "Show tab number"
+  }
+}
