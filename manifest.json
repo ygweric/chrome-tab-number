@@ -1,7 +1,7 @@
 {
-  "name": "Tabs Number",
+  "name": "Tab Number",
   "description": "Show tab number",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "permissions": ["tabs", "*://*/*"],
   "background": {
